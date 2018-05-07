@@ -25,3 +25,21 @@ echo
 #this command starts the program fdisk which allows you to format a storage device
 #and allows the creation of partition tables. 
 fdisk
+
+#viewing a partition table using parted
+parted -l
+
+#creating a file system it will be comments out!
+#mkfs -t ext4 /dev/sdf2
+
+#the mount command
+mount
+
+#using blkid to view filesystems and corresponding UUIDs
+blkid
+
+#current swap usage in kilobytes using the free comamand. 
+free
+
+#viewing Inode Details
+ls -i
